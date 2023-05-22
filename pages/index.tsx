@@ -25,10 +25,10 @@ export default function Home() {
         className={styles.mainImage}
         alt="focus-emoji"
         />
-        <h1>The Daily Rizzler: Is it a rizz or SA today?</h1>
+        <h1>The Daily Rizzler: Is it a rizz or cat calling today?</h1>
         <button onClick={() => random1thru10()}>Test your rizz</button>
       </div>
-      {/* <p>______ of people that have at least 0.1 rizz </p>  Will need to find out why its printing out weird and to use cookies and database to track number of entries  */}
+      {/* <p>______ of people that have at least 0.1 rizz &#1F60E</p>  Will need to find out why its printing out weird and to use cookies and database to track number of entries  */}
     </div>
   )
 }
