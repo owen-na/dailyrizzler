@@ -89,7 +89,8 @@ useEffect(() => {
           <>
             {countdown > 0 ? (
               <>
-              <p className={styles.randomNumber}>{randomNumber} / 10</p>
+              <p className={styles.randomNumber}>{localStorage.getItem("randomNumber")} / 10</p>
+              <p>Go get&apos;em tiger! :)</p>
               <p>Countdown until midnight: {formatTime(countdown)}</p>
               </>
             ) : (
